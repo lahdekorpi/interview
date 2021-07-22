@@ -44,11 +44,13 @@ const fakeRequests = [
       speech: [] // Add all the speech URLs to this array in the same order as the translations
     }
 
-    // TODO: Fetch the translations for each from the Cache service to see if they are available
+    // TODO: Fetch the translations for each from the Cache service to see if they are available.
 
     // TODO: If translations are not available, use the Translation service. If not in the cache, store the response to the cache.
 
-    // TODO: Fetch a speech file from Speech using the _translated_ string (not the original English version)
+    // TODO: Fetch an URL from the cache for an already created speech.
+
+    // TODO: If not available, fetch a speech file from Speech using the _translated_ string (not the original English version)
 
     // TODO: Send the binary data from Speech to Storage to get an URL for each binary
 
